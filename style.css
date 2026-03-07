@@ -12,4 +12,17 @@
     --bg-seashell: hsl(15, 80%, 96%);
     --bg-light-gray: hsl(0, 0%, 80%);
     --bg-black: hsl(0, 0%, 0%);
+
+/* text colors */
+    --text-white: hsl(0, 0%, 100%);
+    --text-black: hsl(0, 0%, 0%);
+    --text-sinopia: hsl(17, 100%, 44%);
+    --text-rich-black-fogra-29: hsl(207, 24%, 7%);
+    --text-granite-gray: hsl(0, 0%, 40%);
+
+/* border colors */
+    --border-white: hsl(0, 0%, 100%);
+    --border-white-alpha-50: hsla(0, 0%, 100%, 0.5);
+    --border-cultured: hsl(0, 0%, 93%);
+    --border-platinum: hsl(30, 9%, 87%);
 }
