@@ -1,0 +1,15 @@
+/* custom properties */
+:root {
+    /*** Colors***/
+    /*background colors*/
+    --bg-sinopia: hsl(17, 100%, 44%);
+    --bg-sinopia-alpha-90: hsla(17, 100%, 44%, 0.9);
+    --bg-sinopia-alpha-7:hsla(17, 100%, 44%, 0.07);
+    --bg-rich-black-fogra-29: hsl(207, 24%, 7%);
+    --bg-rich-black-fogra-29-alpha-50: hsla(207, 24%, 7%, 0.5);
+    --bg-white: hsl(0, 0%, 100%);
+    --bg-isabelle: hsl(30, 43%, 97%);
+    --bg-seashell: hsl(15, 80%, 96%);
+    --bg-light-gray: hsl(0, 0%, 80%);
+    --bg-black: hsl(0, 0%, 0%);
+}
