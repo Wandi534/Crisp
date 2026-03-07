@@ -1,6 +1,6 @@
 /* custom properties */
 :root {
-    /*** Colors***/
+    /*** COLORS***/
     /*background colors*/
     --bg-sinopia: hsl(17, 100%, 44%);
     --bg-sinopia-alpha-90: hsla(17, 100%, 44%, 0.9);
@@ -43,5 +43,8 @@
 /*font weights */
    --weight-regular: 400;
    --weight-semiBold: 600;
+
+/***SPACING***/
+    --section-spacing: 80px;
 
     }
