@@ -148,7 +148,7 @@ body {
     z-index: 4;
 }
 
-.header-active{
+.header .active{
     position: fixed;
     top: 0;
     left: 0;
@@ -177,4 +177,25 @@ body {
     border: 1px solid var(--border-cultured);
     border-radius: 3px;
     padding-inline: 3px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: -270px;
+    width: 100%;
+    max-width: 270px;
+    height: 100vh;
+    background-color: var(--bg-white);
+    padding: 70px 20px;
+    visibility: hidden;
+    transition: var(--transition-1);
+    z-index: 1;
+}
+
+.navbar.active {
+    transform: translateX(270px); 
+    visibility: visible;
+    transition-duration: 500ms;
+    display: block; 
 }
