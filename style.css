@@ -130,6 +130,24 @@ body {
 .container {
     padding-inline: 16px;
 }
+.btn{
+    background-color: var(--bg-sinopia);
+    color: var(--text-white);
+    font-size: var(--fontSize-6);
+    font-weight: var(--weight-semiBold);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: max-content;
+    padding: 18px 40px;
+    border-radius: var(--radius-8);
+    transition: var(--transition-1);
+}
+
+.btn:is(:hover, :focus-visible) {
+    background-color: var(--bg-rich-black-fogra-29);
+}
 
 /* HEADER */
 .navbar,
