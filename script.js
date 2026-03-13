@@ -29,8 +29,11 @@ const closeNav = function () {
 
 addEventOnElements(navbarlinks, "click", closeNav);
 
+/*** HEADER */
 const header = document.querySelector("[data-header]");
 
 window.addEventListener("scroll", function () {
     header.classList[window.scrollY > 50 ? "add" : "remove"]("active");
 });
+
+
