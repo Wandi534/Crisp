@@ -313,3 +313,12 @@ body {
     gap: 40px;
 }
 
+.hero-content{
+    order: 1;
+}
+
+.hero .section-text {
+    margin-block: 35px 40px;
+}
+
+
