@@ -149,6 +149,30 @@ body {
     background-color: var(--bg-rich-black-fogra-29);
 }
 
+.shape{
+    display: none;
+}
+
+.title {
+    color: var(--text-rich-black-fogra-29);
+    font-family: var(--fontFamily-forum);
+    font-style: var(--weight-regular);
+    line-height: 1.23;
+}
+
+.h1 {
+    font-size: var(--fontSize-1);
+    line-height: 1;
+}
+
+.h2 {
+    font-size: var(--fontSize-2);
+}
+
+.h3{
+    font-size: var(--fontSize-3);
+}
+
 /* HEADER */
 .header-action {
     display: none;
